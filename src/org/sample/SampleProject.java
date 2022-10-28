@@ -5,9 +5,15 @@ public class SampleProject {
 		System.out.println("employee id 34567");
 
 	}
+	
+	private void empName() {
+		System.out.println("employee name kavi");
+
+	}
 	public static void main(String[] args) {
 		SampleProject  sp = new SampleProject();
 		sp.empId();
+		sp.empName();
 	}
 
 }

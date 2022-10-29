@@ -10,10 +10,20 @@ public class SampleProject {
 		System.out.println("employee name kavi");
 
 	}
+	
+	private void empCity() {
+		System.out.println("employee city chennai...");
+
+	}
+	
+	
+
 	public static void main(String[] args) {
 		SampleProject  sp = new SampleProject();
 		sp.empId();
 		sp.empName();
+		sp.empCity();
+	
 	}
 
 }

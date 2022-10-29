@@ -8,6 +8,7 @@ public class SampleProject {
 	
 	private void empName() {
 		System.out.println("employee name kavi");
+		System.out.println("employee name paru");
 
 	}
 	public static void main(String[] args) {
